@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Test</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="tooltipster.css"/>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="jquery.tooltipster.js"></script>
+
+      <script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+    </script>
+</head>
+
+<body>
+
+	<div class="card tooltip" id="in-play" title="Card in Play"></div>
+
+	<div class="hand">
+		<div class="card tooltip" id="discard" title="Discard"></div>
+
+		<div class="card tooltip" id="c1" title="Card"></div> 
+	    <div class="card tooltip" id="c2" title="Card"></div>
+		<div class="card tooltip" id="c3" title="Card"></div>
+		<div class="card tooltip" id="c4" title="Card"></div>
+	 	<div class="card tooltip" id="c5" title="Card"></div> 
+
+		<div class="card tooltip" id="deck" title="Deck"></div>
+	</div>
+
+
+
+</body>
+</html>
